@@ -46,8 +46,6 @@ w3 = Web3(
 chain_id = 42
 my_address = "0x82ffc7cF103cccF50571bD671C7D1EA73EC388D5"
 # private keys MUST start with 0x
-# private_key = "317ee651e1e45d3db09bb0fb1d6b6919bff216ad56e87b3293b28d7611ad2625"
-# private_key = "0x65eca54738731d515fd2ac2589cf9a595f4f042f9944f497129d8986a017b96e"
 private_key = os.getenv("PRIVATE_KEY")
 
 
